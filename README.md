@@ -28,8 +28,8 @@ This Node proxy server is built on top of Node.js, Axios, and Express, providing
 Now you can use the proxy server to forward requests. To utilize it:
 
 - Grab the URL or IP of your Vercel project.
-- Add `?url=https://google.com` to the end of the URL.
-- Example: `https://<your_domain>?url=https://<your_query>`
+- Add `?url=https://<your_query>` to the end of the URL.
+- Example: `https://<your_domain>?url=https://<your_query>` --> `https://example.com?url=https://google.com`
 - HTTP also works.
   
 Have fun with your new proxy REST API!
